@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+}
+canvas#feather_canvas {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+img#feather {
+  /* opacity: 0.75; */
+  mix-blend-mode: multiply;
+}

@@ -1,0 +1,10 @@
+
+{
+  "scripts": {
+    "dev-build": "esbuild GL/script.js --bundle --outfile=out.js",
+    "prod-build": "esbuild GL/script.js --bundle --minify --target=chrome90 --outfile=out.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.20"
+  }
+}
